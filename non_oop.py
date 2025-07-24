@@ -66,7 +66,7 @@ while True:
             balance -= withdraw(balance)
             printer(name, balance)
         case "e" | "exit" | '4':
-            balance(name, balance)
+            printer(name, balance)
             quit()
         case _:
             print("Error 404")
